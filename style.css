@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    padding: 50px;
+    background-color: rgb(183, 183, 183);
+    margin: 50px;
+    border-radius: 25px;
+}
+
+
+img{
+    border-radius: 25px;
+}
+
+.img-profilo{
+    border-radius: 100px;
+}
+
+.presentazione{
+    margin: 10px;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.su-di-me{
+    margin: 10px;
+    background-color: rgb(255, 168, 168);
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.portfolio{
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 25px;
+}
+.contatti{
+    height: 200px;
+    margin: 10px;
+    background-color: brown;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.form{
+    margin: 0 30%;
+    margin-top: 90px;
+}
