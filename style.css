@@ -10,6 +10,9 @@ body{
     border-radius: 25px;
 }
 
+a{
+    text-decoration: none;
+}
 
 img{
     border-radius: 25px;
@@ -50,4 +53,25 @@ img{
 .form{
     margin: 0 30%;
     margin-top: 90px;
+}
+
+.input{
+    height: 26px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+label{
+    color: white;
+}
+
+.btn{
+    text-decoration: none;
+    width: 100px;
+    height: 35px;
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    margin: 0 35%;
+    margin-top: 20px;
 }
