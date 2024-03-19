@@ -40,26 +40,30 @@ img{
 }
 
 .presentazione{
+    height: 70vh;
     margin: 10px;
     background-color: brown;
-    padding: 10px;
+    padding: 10%;
     border-radius: 25px;
 }
 
 .su-di-me{
+    height: 70vh;
     margin: 10px;
     background-color: rgb(255, 168, 168);
-    padding: 10px;
+    padding: 10%;
     border-radius: 25px;
 }
 
 .portfolio{
+    height: 70vh;
     margin: 10px;
     background-color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 10%;
     border-radius: 25px;
 }
 .contatti{
+    height: 70vh;
     height: 200px;
     margin: 10px;
     background-color: brown;
