@@ -2,4 +2,4 @@
 Forza digitazon
 
 
-PAgina di presentazione di esempio (non curata ne in forma, ne in colori ne con immagini)
+Pagina di presentazione di esempio (non curata ne in forma, ne in colori ne con immagini)
