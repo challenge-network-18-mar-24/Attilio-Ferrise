@@ -3,97 +3,113 @@
 /*NON OTTIMIZZATA PER SCHERMI PICCOLI ONLY DESKTOP*/
 
 body{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
+    color: black;
 }
 
 nav, .nav-links{
-    margin-top: 20px;
+    padding: 10px;
     display: flex;
     justify-content: space-around;
     gap: 40px;
     list-style: none;
+    background-color: rgb(241, 213, 255);
+
 }
 
-a:hover{
+a.navigation:hover{
     border-bottom: 1px solid black;
-}
-
-.content{
-    padding: 50px;
-    background-color: rgb(183, 183, 183);
-    margin: 50px;
-    border-radius: 25px;
 }
 
 a{
     text-decoration: none;
+    color: black;
 }
 
-img{
-    border-radius: 25px;
+/*BACKGROUND*/
+
+.bg_gray{
+    background-color: rgb(241, 213, 255);
 }
 
-.img-profilo{
-    border-radius: 100px;
+.bg_2{
+    background-color: rgb(226, 169, 255);
 }
 
 
-.presentazione{
-    height: 70vh;
-    margin: 10px;
-    background-color: brown;
-    padding: 10%;
-    border-radius: 25px;
+/*HOME*/
+
+.home-page{
+    height: 90vh;
 }
 
-.su-di-me{
-    height: 70vh;
-    margin: 10px;
-    background-color: rgb(255, 168, 168);
-    padding: 10%;
-    border-radius: 25px;
+.profile{
+    display: block;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.portfolio{
-    height: 70vh;
-    margin: 10px;
-    background-color: rgb(255, 255, 255);
-    padding: 10%;
-    border-radius: 25px;
-}
-.contatti{
-    height: 70vh;
-    height: 200px;
-    margin: 10px;
-    background-color: brown;
-    padding: 10px;
-    border-radius: 25px;
+.name{
+    margin-top: 3px;
+    font-size: 43px;
+    margin-bottom: 0;
 }
 
-.form{
-    margin: 0 30%;
-    margin-top: 90px;
+.subtitle{ 
+    margin-top: 0;
 }
 
-.input{
-    height: 26px;
-    border-radius: 8px;
-    border: 2px solid black;
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
-label{
-    color: white;
-}
-
-.btn{
-    text-decoration: none;
-    width: 100px;
-    height: 35px;
+a.btn-cv{
+    padding: 15px;
     background-color: white;
-    border-radius: 15px;
-    border: none;
-    margin: 0 35%;
-    margin-top: 20px;
+    margin-top: 40px;
+    border-radius: 30px;
+    width: 50%;
+}
+
+a.btn-cv:hover{
+    background-color: rgb(247, 232, 255);
+}
+
+
+/*ABOUT ME*/
+
+.about-me{
+    height: 95vh;
+    padding: 25px;
+}
+
+.containter-card{
+    display: flex;
+    margin: 0 300px;
+}
+
+.card{
+    margin-top: 5%;
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+.title-about{
+    margin-top: 0;
+    font-size: 43px;
+    margin-bottom: 0;
+}
+
+.title-experience{
+    margin-top: 10px;
+    font-size: 33px;
 }
