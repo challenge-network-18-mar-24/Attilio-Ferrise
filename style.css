@@ -2,14 +2,23 @@
 
 /*NON OTTIMIZZATA PER SCHERMI PICCOLI ONLY DESKTOP*/
 
+/*GENERALE*/
 body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
+div.fixed {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+  }
+
+
+/*NAV*/
 nav, .nav-links{
     padding: 10px;
     display: flex;
@@ -42,6 +51,16 @@ a{
 
 /*HOME*/
 
+.btn-home{
+    padding: 15px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 40px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
 .home-page{
     height: 90vh;
 }
@@ -73,7 +92,7 @@ a{
 a.btn-cv{
     padding: 15px;
     background-color: white;
-    margin-top: 40px;
+    margin-top: 10px;
     border-radius: 30px;
     width: 50%;
 }
@@ -96,16 +115,16 @@ a.btn-cv:hover{
     padding: 25px;
 }
 
-.containter-card{
+.containter-card{   
     display: flex;
-    margin: 0 300px;
+    justify-content: center;
 }
 
 .card{
     margin-top: 5%;
-    width: 400px;
+    width: 30%;
     height: fit-content;
-    border: 4px solid black;
+    border: 10px solid black;
     border-radius: 25px;
 }
 
@@ -122,10 +141,18 @@ a.btn-cv:hover{
 
 
 .paragraph{
-    width: 70%;
+    width: 90%;
     margin-bottom: 0;
+    border-radius: 25px;
 }
 
+
+.title-container{
+    margin: auto;
+    width: 70%;
+    /*border: 10px solid black;
+    border-radius: 25px;*/
+}
 
 
 .education-card{
@@ -140,14 +167,55 @@ a.btn-cv:hover{
 /*PORTFOLIO*/
 
 .portfolio{
-    height: 95vh;
+    height: fit-content;
 }
+
+.container-portfolio{
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+
+.portfolio-card{
+    border: 6px solid black;
+    border-radius: 25px;
+    width: 300px;
+    height: 400px;
+    flex-wrap: wrap;
+}
+
+.pr_image{
+    height: 50%;
+    background-image: url('foto_prova.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+}
+
+
+.link-portfolio{
+    margin-left: 60%;
+}
+
 
 
 /*CONTATTAMI*/
 
 .contattami{
-    height: 95vh;
+    height: fit-content;
+}
+
+.form{
+    width: 50%;
+    margin: auto;
+}
+
+#email{
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 15px ;
 }
 
 
@@ -159,5 +227,38 @@ footer{
 
 .footer-title{
     padding: 70px 0;
-  text-align: center;
+    text-align: center;
+}
+
+
+
+
+/*UTILITY*/
+
+.flex {
+    display: flex;
+}
+
+.p_100 {
+    padding: 100px;
+}
+
+.p_50 {
+    padding: 50px;
+}
+
+.p_20 {
+    padding: 20px;
+}
+
+.p_15 {
+    padding: 15px;
+}
+
+.p_10 {
+    padding: 10px;
+}
+
+.m_20 {
+    margin: 20px;
 }
