@@ -19,6 +19,12 @@ div.fixed {
 
 
 /*NAV*/
+
+nav{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
 nav, .nav-links{
     padding: 10px;
     display: flex;
